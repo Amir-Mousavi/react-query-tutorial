@@ -6,3 +6,7 @@ export const fetchPosts =
     );
     return await response.json();
   };
+
+export const deletePost = (id) => {
+  return fetch(`https://jsonplaceholder.typicode.com/posts/${id}`);
+};
