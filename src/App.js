@@ -2,7 +2,7 @@ import { QueryClientProvider, QueryClient } from "react-query";
 import Posts from "./Components/Posts";
 import "./App.css";
 
-const queryClient = new QueryClient();
+export const queryClient = new QueryClient();
 
 function App() {
   return (
